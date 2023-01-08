@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:frontend": "cd NodeModule-Frontend && pnpm run build",
+    "serve:frontend": "cd NodeModule-Backend && npm run start",
+    "build": "npm run build:frontend && npm run serve:frontend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Benrhu/Fullstack-js-project.git"
+  },
+  "author": "rubdh89@proton.me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Benrhu/Fullstack-js-project/issues"
+  },
+  "homepage": "https://github.com/Benrhu/Fullstack-js-project#readme"
+}
